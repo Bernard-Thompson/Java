@@ -1,7 +1,6 @@
 package com.darkpocketscloudfull.cloud;
 
 import java.awt.Canvas;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
@@ -11,31 +10,36 @@ import java.awt.image.DataBufferInt;
 import javax.swing.JFrame;
 
 import com.darkpocketscloudfull.cloud.graphics.Screen;
+import com.darkpocketscloudfull.cloud.input.Keyboard;
 
 public class Cloud extends Canvas implements Runnable {
 	private static final long serialVersionUID = 1L;
+	
 	//game window and size
     public static int width = 300;
-    public static int height = width  / 16 * 9;
+    public static int height = 168;
     public static int scale = 3;
+   public static String title = "Cloud";
+    
+   private Thread thread;
+   private JFrame frame;
+   private Keyboard key;
+   private boolean running = false; 
    
+    private Screen screen;
+    
     private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
     private int [ ] pixels = ((DataBufferInt)image.getRaster( ) .getDataBuffer ( )) .getData ( ) ;
-    
-    private Thread thread;
-    private JFrame frame;
-    private boolean running = false;
-    
-    private Screen screen;
     
     public Cloud () {
     	Dimension size = new Dimension (width * scale, height * scale);
     	setPreferredSize (size);
     	
     	screen = new Screen (width, height );
-    	
     	frame = new JFrame ( );
+    	key = new Keyboard ( );
     	
+    	addKeyListener ( key );
     }
     
     public synchronized void start () {
@@ -53,17 +57,47 @@ public class Cloud extends Canvas implements Runnable {
     }
     
     public void run () {
+    	long lastTime = System.nanoTime ( );
+    	long timer = System.currentTimeMillis( );
+    	final double ns = 1000000000.0 / 60.0;
+    	double delta = 0;
+    	int frames = 0;
+    	int updates = 0;
     	while (running) {
-    		//System.out.println("Running......Like a boss!!");
-    		update ();
-    		render ();
-    	}
-    }
-    public void update () {
+    		long now = System.nanoTime ( );
+    		delta += (now - lastTime) / ns;
+    		lastTime = now;
+    		while (delta >= 1) {
+    			update ();
+    			updates ++;
+    			delta --;
+    		}
     	
+    		render ( );
+    		frames ++;
+    		
+    		if (System.currentTimeMillis( ) - timer > 1000) {
+    			timer += 1000;
+    			frame.setTitle (title + "  |  " + updates + " ups, " + frames + " fps");
+    			updates = 0;
+    			frames = 0;
+    		}
+    	}
+    	stop ( );
+    }
+    
+    int x = 0, y = 0;
+    
+    public void update ( ) {
+    	key.update ( );
+  
+        if ( key.up )  y--;
+    	if ( key.down )  y++;
+    	if ( key.left ) x--;
+    	if ( key.right ) x ++; 
     }
      
-    public void render () {
+    public void render ( ) {
     	BufferStrategy bs = getBufferStrategy ( );
     	if (bs == null){
     		createBufferStrategy ( 3 ) ;
@@ -71,7 +105,7 @@ public class Cloud extends Canvas implements Runnable {
     	}
     	
     	screen.clear ( );
-    	screen.render ( );
+    	screen.render ( x, y );
     	
     	for (int i = 0 ; i < pixels.length; i++ ) {
     		pixels[ i ] = screen.pixels[ i ];
@@ -88,7 +122,7 @@ public class Cloud extends Canvas implements Runnable {
     public static void main (String[ ] args) {
     	Cloud cloud = new Cloud ();
     	cloud.frame.setResizable (false);
-    	cloud.frame.setTitle("Cloud");
+    	cloud.frame.setTitle(Cloud.title);
     	cloud.frame.add(cloud);
     	cloud.frame.pack( );
     	cloud.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
