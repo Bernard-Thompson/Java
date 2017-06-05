@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bg">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="628" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="106" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="rAgree" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="rDecline" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="bInstall" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="25" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="162" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rAgree" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rDecline" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="bInstall" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Agreement "/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="(&quot;Item Name&quot;) (&quot;Current Completed Version&quot;)&#xa;Copyright (c) Current year The Silver Smithery&#xa;&#xa;*** END USER LICENSE AGREEMENT ***&#xa;&#xa;IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS Item.&#xa;&#xa;1. LICENSE&#xa;&#xa;By receiving, opening the file package, and/or using (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;)you agree that this End User User License Agreement(EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.&#xa;&#xa;Unless you have a different license agreement signed by The Silver Smithery your use of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) indicates your acceptance of this license agreement and warranty.&#xa;&#xa;Subject to the terms of this Agreement, The Silver Smithery grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) in accordance with this Agreement and any other written agreement with The Silver Smithery. The Silver Smithery does not transfer the title of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) to you; the license granted to you is not a sale. This agreement is a binding legal agreement between The Silver Smithery and the purchasers or users of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;).&#xa;&#xa;If you do not agree to be bound by this agreement, remove (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) from your computer now and, if applicable, promptly return to The Silver Smithery by mail any copies of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) and related documentation and packaging in your possession.&#xa;&#xa;2. DISTRIBUTION&#xa;&#xa;(&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part.  For information about redistribution of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) contact The Silver Smithery.&#xa;&#xa;3. USER AGREEMENT&#xa;&#xa;3.1 Use&#xa;&#xa;Your license to use (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) is limited to the number of licenses purchased by you. You shall not allow others to use, copy or evaluate copies of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;). You are to pay 4 gold per defeat of a creature ( In the presence of non hostile creatures or praise the creator of the item used ) &#xa;&#xa;3.2 Use Restrictions&#xa;&#xa;You shall use (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race, sexual orientation or age is strictly prohibited.&#xa;&#xa;Each licensed copy of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) may be used to protect others or defend the user.&#xa;&#xa;You may not make a copy of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) for backup purposes. Other users may not use your copy of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) . The assignment, sublicense, networking, sale, or distribution of copies of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) are strictly forbidden without the prior written consent of The Silver Smithery. It is a violation of this agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;). If any person other than yourself uses (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) registered in your name, regardless of whether it is at the same time or different times, then this agreement is being violated and you are responsible for that violation!&#xa;&#xa;3.3 Copyright Restriction&#xa;&#xa;This Item contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;). Nor can you create any derivative works or other works that are based upon or derived from (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) in whole or in part.&#xa;&#xa;The Silver Smithery&apos;s name, logo and graphics file that represents (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) shall not be used in any way to promote products developed with (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) . The Silver Smithery retains sole and exclusive ownership of all right, title and interest in and to (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) and all Intellectual Property rights relating thereto.&#xa;&#xa;Copyright law and international copyright treaty provisions protect all parts of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;), products and services. No  part or text may be copied or used in any way by the user except as intended within the bounds of the single user agreement. All rights not expressly granted hereunder are reserved for The Silver Smithery.&#xa;&#xa;3.4 Limitation of Responsibility&#xa;&#xa;You will indemnify, hold harmless, and defend The Silver Smithery , its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of The Silver Smithery&apos;s Item.&#xa;&#xa;In no event (including, without limitation, in the event of negligence) will The Silver Smithery , its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) or the use or inability to use (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.&#xa;&#xa;The Silver Smithery&apos;s entire liability, without exception, is limited to the customers&apos; reimbursement of the purchase price of the Item (maximum being the lesser of the amount paid by you and the suggested retail price as listed by The Silver Smithery ) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to The Silver Smithery.&#xa;&#xa;3.5 Warranties&#xa;&#xa;Except as expressly stated in writing, The Silver Smithery makes no representation or warranties in respect of this Item and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.&#xa;&#xa;3.6 Governing Law&#xa;&#xa;This Agreement shall be governed by the law of the Lychaean Coalition applicable therein. You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of Lychaean Coalition therefrom. If any provision shall be considered unlawful, void or otherwise unenforceable, then that provision shall be deemed severable from this License and not affect the validity and enforceability of any other provisions.&#xa;&#xa;3.7 Termination&#xa;&#xa;Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) supplied under this Agreement. The financial obligations incurred by you shall survive the expiration or termination of this license.&#xa;&#xa;4. DISCLAIMER OF WARRANTY&#xa;&#xa;THIS ITEM AND THE ACCOMPANYING FILES ARE SOLD &quot;AS IS&quot; AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;) AS WELL.&#xa;&#xa;5. CONSENT OF USE OF DATA&#xa;&#xa;You agree that The Silver Smithery may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to (&quot;Item Name&quot;) (&quot;Current Completed Version&quot;).The Silver Smithery may also use this information to provide notices to you which may be of use or interest to you. &#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JRadioButton" name="rAgree">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agree "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rAgreeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rDecline">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Decline"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rDeclineActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bInstall">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Install"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
