@@ -3,7 +3,7 @@ package com.bthompson.location.entities;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+@Entity(name = "location")
 public class Location {
 	@Id
 	private int id;

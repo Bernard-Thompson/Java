@@ -9,7 +9,7 @@ import com.bthompson.location.entities.Location;
 import com.bthompson.location.repository.LocationRepository;
 
 @Service
-public class LocationServiceImplay implements LocationService {
+public class LocationServiceImpl implements LocationService {
 
 	@Autowired
 	private LocationRepository repository;
