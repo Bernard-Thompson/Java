@@ -1,6 +1,6 @@
-# Location based crud application
+# Location based c.r.u.d. application
 
-This is a crud application using the spring framwork that takes and displays location based information.
+This is a c.r.u.d. application using the spring framwork that takes and displays location based information.
 
 # During this project I Learned
 
