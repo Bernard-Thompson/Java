@@ -1,0 +1,11 @@
+🔹 Mid-Level Java Swing Projects
+Unique Project List:
+
+Hotel Reservation System – Desktop GUI for managing hotel bookings.
+Expense Tracker Desktop App – Tracks monthly spending with Java Swing UI.
+Inventory Management System – Desktop-based inventory tracking.
+Chess Game with AI – Implements basic chess logic and AI opponent.
+Student Attendance System – GUI-based attendance tracker.
+Library Management System – Allows users to check out and return books.
+Digital Notebook – Simple text editor with save/load functionality.
+Weather Application – Fetches and displays real-time weather data.

@@ -1,0 +1,11 @@
+🔹 Popular Java Exercises
+Unique Project List:
+
+Fibonacci Sequence Generator – Recursive and iterative solutions.
+Palindrome Checker – Determines if a word/number is a palindrome.
+Anagram Checker – Checks if two strings are anagrams.
+Prime Number Generator – Generates and checks for prime numbers.
+Sorting Algorithms Visualizer – Implements and compares different sorting methods.
+Binary Search Tree Implementation – Operations like insert, delete, and search.
+Sudoku Solver – Backtracking algorithm for solving Sudoku puzzles.
+LruCache Implementation – Implements a Least Recently Used (LRU) cache.

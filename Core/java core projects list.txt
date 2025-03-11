@@ -1,0 +1,11 @@
+🔹 Basic Core Java Projects
+Unique Project List:
+
+Student Grade Calculator – CLI-based application that calculates student grades based on weighted averages.
+Bank Account Simulation – Implements deposit, withdrawal, and transaction logs.
+Expense Tracker – A simple console-based budget manager.
+Contact Manager – CLI program for managing contacts with search and sorting features.
+Unit Converter – Converts between units (length, weight, temperature, etc.).
+To-Do List Application – Simple CRUD-based task manager.
+Basic File Encryption/Decryption – Uses Java Cryptography API to secure text files.
+Random Password Generator – Creates secure passwords based on user-defined parameters.

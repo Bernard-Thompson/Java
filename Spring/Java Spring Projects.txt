@@ -1,0 +1,11 @@
+🔹 Basic Java Spring Projects
+Unique Project List:
+
+Simple RESTful API for Bookstore – CRUD operations using Spring Boot.
+User Authentication System – Implements JWT-based authentication.
+Task Management API – Manages tasks with REST endpoints.
+Weather Data Fetcher – Calls external APIs and stores data in MySQL.
+Online Quiz Application – REST API for managing quizzes and scores.
+URL Shortener Service – Generates short URLs using Spring Boot and Redis.
+Employee Payroll System – Manages employee salary details.
+Movie Recommendation API – Uses Spring Boot and Hibernate.

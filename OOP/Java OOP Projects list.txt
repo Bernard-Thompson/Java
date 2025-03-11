@@ -1,0 +1,11 @@
+🔹 Basic Java OOP Projects
+Unique Project List:
+
+Library Management System – Implements classes for books, members, and lending.
+Zoo Management System – Uses polymorphism to model different animal behaviors.
+Online Banking System – Simulates account creation, transactions, and security.
+Event Ticket Booking System – Models events, tickets, and attendees using OOP.
+Online Shopping Cart – Implements inheritance and interfaces for checkout logic.
+Simple Chess Game – Basic chess logic with OOP design principles.
+Hospital Patient Record System – Tracks patients and doctor assignments.
+Inventory Management System – Uses object relationships to manage stock.
